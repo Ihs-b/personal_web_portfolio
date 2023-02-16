@@ -20,7 +20,9 @@
     <div>{{ form.email() }}</div>
     <div>{{ form.message.label }}:</div>
     <div>{{ form.message(cols="35", rows="15") }}</div>
+    <div>{{ form.submit(class= 'btn') }}</div>
 </form>
+
 {% else %}
 {% for message in get_flashed_messages() %}
 <h2> {{ message }} </h2>
