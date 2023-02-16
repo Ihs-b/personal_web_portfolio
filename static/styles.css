@@ -1,0 +1,141 @@
+body {
+    background-color: #F8F4EA;
+    margin: 0;
+    color: #484D4B;
+    text-align: center;
+    font-family: helvetica, "Roboto Condensed", sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #F8F4EA;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.home-bar{
+    float: left;
+}
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color:  #484D4B;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ECE8DD;
+}
+
+.active {
+    background-color: #484D4B;
+}
+
+hr {
+    height: 0.2em;
+    width: 30%;
+    border-style: dotted hidden hidden;
+    border-width: 10px;
+    color: #ECE8DD;
+}
+
+h1, h2, h3 {
+    color: #579BB1;
+}
+
+.profile-img {
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 40px;
+    height: 15rem;
+}
+
+.top-section {
+    background: #E1D7C6;
+    padding: 70px 0;
+    height: 25rem;
+    color: #579BB1;
+}
+
+.intro-section {
+    padding: 0 20%;
+    line-height: 2;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 50px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.computer-img {
+    border-radius: 50%;
+    margin: 0 auto;
+    height: 9rem;
+    float: left;
+}
+
+.computers-img {
+    float: right;
+    border-radius: 50%;
+    margin: 0 auto;
+    height: 9rem;
+}
+
+.btn {
+    background: #579BB1;
+    background-image: -webkit-linear-gradient(top, #579BB1, #E1D7C6);
+    background-image: -moz-linear-gradient(top, #579BB1, #E1D7C6);
+    background-image: -ms-linear-gradient(top, #579BB1, #E1D7C6);
+    background-image: -o-linear-gradient(top, #579BB1, #E1D7C6);
+    background-image: linear-gradient(to bottom, #579BB1, #E1D7C6);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    color: #ECE8DD;
+    font-size: 17px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #E1D7C6;
+    background-image: -webkit-linear-gradient(top, #E1D7C6, #579BB1);
+    background-image: -moz-linear-gradient(top, #E1D7C6, #579BB1);
+    background-image: -ms-linear-gradient(top, #E1D7C6, #579BB1);
+    background-image: -o-linear-gradient(top, #E1D7C6, #579BB1);
+    background-image: linear-gradient(to bottom, #E1D7C6, #579BB1);
+    text-decoration: none;
+}
+
+.contact-section {
+    margin-top: 3rem;
+}
+
+.bottom-container {
+    background-color: #579BB1;
+    height: 60px;
+    padding: 30px;
+
+}
+a {
+    text-decoration: none;
+    color: #484D4B;
+}
+.signature {
+    color: #ECE8DD;
+}
+
+form {
+    margin-bottom: 3rem;
+}
